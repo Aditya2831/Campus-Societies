@@ -1,3 +1,5 @@
+//3 card components at opening page
+
 'use client';
 import { Card } from 'flowbite-react';
 import React from 'react';
