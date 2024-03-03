@@ -4,7 +4,7 @@
 import { Card } from 'flowbite-react';
 import React from 'react';
 
-function GeneralSocs({ img, title, description }) {
+function Cards({ img, title, description }) {
   return (
     <Card
       className="max-w-xs mb-8 hover:shadow-lg transform transition-transform duration-300 hover:scale-105 bg-white rounded-lg shadow-md"
@@ -21,8 +21,7 @@ function GeneralSocs({ img, title, description }) {
   );
 }
 
-
-export default GeneralSocs;
+export default Cards;
 
 
 
