@@ -19,7 +19,7 @@ function Welcome() {
     
 
     <Link to="/technical">
- <GeneralSocs img="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" title="CULTURAL SOCIETIES" description="Diverse Expressions, Shared Traditions: Celebrating Heritage, Art, and Creativity, Weaving a Tapestry of Cultural Harmony."/>
+ <GeneralSocs img="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" title="TECHNICAL SOCIETIES" description="Diverse Expressions, Shared Traditions: Celebrating Heritage, Art, and Creativity, Weaving a Tapestry of Cultural Harmony."/>
  </Link>
 
  <Link to="/cultural">

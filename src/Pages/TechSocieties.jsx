@@ -1,337 +1,408 @@
 import React, { useState } from "react";
 import Cards from "../Components/Card";
-import iosd from "../assets/logos/iosd.jpg"
-import techXtract from "../assets/logos/techXtract.jpg"
+import iosd from "../assets/logos/iosd.jpg";
+import techXtract from "../assets/logos/techXtract.jpg";
+import adi from "../assets/adi.jpg"
 
+
+
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 const ServiceComponent = () => {
   const [selectedTab, setSelectedTab] = useState(0);
 
   const tabs = [
-   
     {
       id: 0,
       title: "IOSD",
-      logo:iosd, 
+      logo: iosd,
       heading: "International Organisation Of Software Developers",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-// ../assets/img1.jpg
-      team:[
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      // ../assets/img1.jpg
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            adi
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
       ],
 
-      achievements:[
-        <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+      achievements: [
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
+      
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:1,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:2,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:3,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:4,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
-        }
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
       ],
 
       content:
         "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
-
-
-
 
     // TECHXTRACT
     {
       id: 1,
       title: "TECHXTRACT",
-      logo:techXtract, //passing img
+      logo: techXtract, //passing img
       heading: "TechXtract",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
 
-      team:[
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
       ],
 
-      achievements:[
+      achievements: [
         <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+        </ul>,
       ],
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 0,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:1,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 1,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:2,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 2,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:3,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 3,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:4,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
-        }
+          id: 4,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        },
       ],
     },
-
-
 
     {
       id: 2,
       title: "TECHCOM",
-      logo:techXtract, //passing img
+      logo: techXtract, //passing img
       heading: "TechXtract",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
 
-      team:[
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
       ],
 
-      achievements:[
+      achievements: [
         <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+        </ul>,
       ],
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 0,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:1,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 1,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:2,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 2,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:3,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
+          id: 3,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
         {
-          id:4,
-          image:"https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww"
-        }
+          id: 4,
+          image:
+            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        },
       ],
     },
-
-
-
-
-
-
-
 
     {
       id: 3,
       title: "A.T.O.M",
-      logo:techXtract, 
+      logo: techXtract,
       heading: "A.T.O.M",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-// ../assets/img1.jpg
-      team:[
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      // ../assets/img1.jpg
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
       ],
 
-      achievements:[
+      achievements: [
         <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+        </ul>,
       ],
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:1,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:2,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:3,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:4,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
-        }
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
       ],
 
       content:
         "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
-
 
     {
       id: 4,
@@ -351,76 +422,98 @@ const ServiceComponent = () => {
     {
       id: 6,
       title: "eDC",
-      logo:iosd, 
+      logo: iosd,
       heading: "International Organisation Of Software Developers",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-// ../assets/img1.jpg
-      team:[
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      // ../assets/img1.jpg
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
       ],
 
-      achievements:[
+      achievements: [
         <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+        </ul>,
       ],
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:1,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:2,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:3,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:4,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
-        }
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
       ],
 
       content:
@@ -430,76 +523,98 @@ const ServiceComponent = () => {
     {
       id: 7,
       title: "CSI",
-      logo:iosd, 
+      logo: iosd,
       heading: "International Organisation Of Software Developers",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-// ../assets/img1.jpg
-      team:[
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      // ../assets/img1.jpg
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
       ],
 
-      achievements:[
+      achievements: [
         <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+        </ul>,
       ],
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:1,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:2,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:3,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:4,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
-        }
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
       ],
 
       content:
@@ -509,76 +624,98 @@ const ServiceComponent = () => {
     {
       id: 8,
       title: "IEEE",
-      logo:iosd, 
+      logo: iosd,
       heading: "International Organisation Of Software Developers",
-      brief:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established:"March 2016",
-      vision:"In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-// ../assets/img1.jpg
-      team:[
+      brief:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      established: "March 2016",
+      vision:
+        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+      // ../assets/img1.jpg
+      team: [
         {
-          id:0,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:1,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:2,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:3,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
-          id:4,
-          name:"Vansh",
-          role:"General Secreatary",
-          image:"https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain"
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
       ],
 
-      achievements:[
+      achievements: [
         <ul>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-          <li>1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi</li>
-        </ul>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+          <li>
+            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
+          </li>
+        </ul>,
       ],
 
-      gallery:[
+      gallery: [
         {
-          id:0,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:1,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:2,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:3,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
         {
-          id:4,
-          image:"https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn"
-        }
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
       ],
 
       content:
@@ -587,80 +724,90 @@ const ServiceComponent = () => {
   ];
 
   return (
-    <div className="flex text-center font-chakraPetch ">
-     <div className="md:w-1/5 md:border-r ml-1 mt-1 ">
-  {/* Designing left navbar */}
-  {tabs.map((tab) => (
-    <div
-      key={tab.id}
-      className={`cursor-pointer bg-[#0f1a2e] p-2 flex items-center md:h-[80px] h-[65px] border-t border-b ${
-        selectedTab === tab.id ? "text-gray-950 bg-gray-300" : "text-white transition duration-300 hover:bg-gradient-to-r from-gray-900 to-blue-800"
-      }`}
-      onClick={() => setSelectedTab(tab.id)}
-    >
-      {/* Render the logo image */}
-      {tab.title}
-    </div>
-  ))}
-</div>
-
-
+    <div className="flex text-center font-chakraPetch font-semibold">
+      <div className="md:w-1/5 md:border-r ml-1 mt-1 text-center bg-gradient-to-r from-gray-900 via-slate-900 to-slate-900">
+        {/* Designing left navbar */}
+        {tabs.map((tab) => (
+          <div
+            key={tab.id}
+            className={`cursor-pointer bg-[#0f1a2e] p-2 flex items-center md:h-[80px] h-[65px] border-t border-b ${
+              selectedTab === tab.id
+                ? "text-gray-950 bg-gray-300"
+                : "text-white transition duration-300 hover:bg-gradient-to-r from-gray-900 to-blue-800 text-center"
+            }`}
+            onClick={() => setSelectedTab(tab.id)}>
+            {tab.title}
+          </div>
+        ))}
+      </div>
 
       <div className="md:w-5/6 w-full md:pt-1 pl-0.5 h-fit md:h-auto">
         <div className="py-8 md:px-6 rounded-md bg-gradient-to-r from-gray-900 via-slate-700 to-slate-900 text-white flex flex-col md:gap-16 gap-2">
-        <div className="flex">
-          <h1 className="md:text-5xl text-3xl font-bold border-b mt-4 text-center">
-            {tabs[selectedTab].heading}
-          </h1>
+          <div className="flex">
+            <h1 className="md:text-5xl text-3xl font-bold border-b mt-4 text-center">
+              {tabs[selectedTab].heading}
+            </h1>
 
-          <img src={tabs[selectedTab].logo} alt={tabs[selectedTab].title} className="w-40 h-30 mr-2 rounded-md ml-2" />
+            <img
+              src={tabs[selectedTab].logo}
+              alt={tabs[selectedTab].title}
+              className="w-40 h-30 mr-2 rounded-md ml-2"
+            />
           </div>
 
+          {/* Established */}
+          <div className="flex text-3xl">
+            <h1>Established: {String.fromCharCode(160)}</h1>
 
-
-
-           {/* Established */}
-           <div className="flex text-3xl">
-           <h1>Established: {String.fromCharCode(160)}</h1>
-
-          {tabs[selectedTab].established}
+            {tabs[selectedTab].established}
           </div>
 
           {/* Who are we section */}
           <div>
-          <h1 className="text-3xl">Who are We?</h1>
-          <div>{tabs[selectedTab].brief}</div>
+            <h1 className="text-3xl">Who are We?</h1>
+            <div>{tabs[selectedTab].brief}</div>
           </div>
 
-
-            {/* Our Vision */}
+          {/* Our Vision */}
           <div>
-          <h1 className="text-3xl">Our Vision</h1>
-          {tabs[selectedTab].vision}
+            <h1 className="text-3xl">Our Vision</h1>
+            {tabs[selectedTab].vision}
           </div>
 
           {/* Container for team member images */}
           <div>
-          <h1 className="text-3xl">Meet Our Team</h1>
-          <div className="flex justify-evenly">
-            {tabs[selectedTab].team.map((member) => (
-              <div key={member.id} className="flex flex-col items-center mr-4 justify-evenly">
-                <img src={member.image} alt={member.name} className=" w-34 h-34 mb-2" />
-                <p>{member.name}</p>
-                <p>{member.role}</p>
-              </div>
-            ))}
-          </div>
+            <h1 className="text-3xl">Meet Our Team</h1>
+            <div className="flex justify-evenly">
+              {tabs[selectedTab].team.map((member) => (
+                <div
+                  key={member.id}
+                  className="flex flex-col items-center mr-4 justify-evenly">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className=" w-34 h-34 mb-2"
+                  />
+                  <p>{member.name}</p>
+                  <p>{member.role}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Rendering achievements */}
-          <div>
+          <div className="achievements">
             <h1 className="text-3xl">Achievements</h1>
-            <ul>
+            <VerticalTimeline className="text-black">
               {tabs[selectedTab].achievements.map((achievement, index) => (
-                <li key={index}>{achievement}</li>
+                <VerticalTimelineElement key={index} className="text-black">
+                  {achievement}
+                </VerticalTimelineElement>
               ))}
-            </ul>
+            </VerticalTimeline>
+
+            {/* <ul>
+             
+            </ul> */}
           </div>
 
           {/* Rendering gallery */}
@@ -677,7 +824,14 @@ const ServiceComponent = () => {
               ))}
             </div>
           </div>
-          
+
+          <div>
+            <button
+              type="button"
+              class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-10 py-3.5 text-center me-2 mb-2">
+              INTERESTED
+            </button>
+          </div>
         </div>
       </div>
     </div>
