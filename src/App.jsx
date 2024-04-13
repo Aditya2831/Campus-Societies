@@ -6,6 +6,7 @@ import Communities from './Pages/Communities'
 import Society_Structure from './Components/Society_Structure'
 import { Route, Routes } from 'react-router-dom';
 import { Authentication } from './Authentication'
+import {supabase} from './client'
 
 
 

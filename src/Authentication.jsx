@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import {supabase} from './client'
 export const Authentication = () => {
 
     const[formData,setFormData]=useState({
@@ -13,14 +13,37 @@ export const Authentication = () => {
             return{
                 ...prevFormData,
                 [event.target.name]: event.target.value
-                
+
             }
         })
 
     }
+
+   async function handleSubmit(e){
+        e.preventDefault()
+try {
+
+    const { data, error } = await supabase.auth.signUp(
+        {
+          email: formData.email,
+          password: formData.password,
+          options: {
+            data: {
+              full_name: formData.fullName,
+              age: 27,
+            }
+          }
+        }
+      )
+      alert('Check mf')
+    
+} catch (error) {
+    alert(error)
+}
+    }
   return (
     <div>
-        <form action="">
+        <form action="" onSubmit={handleSubmit}>
             <input type="text"
             placeholder='Fullname' 
                 name='fullName'

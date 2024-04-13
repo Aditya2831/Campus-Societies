@@ -22,10 +22,10 @@ const ServiceComponent = () => {
       logo: iosd,
       heading: "International Organisation Of Software Developers",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
+        "Our vision at IOSD is to be a beacon of excellence in nurturing and empowering the future leaders of the software industry. We envision a world where every aspiring software developer is equipped with the skills, knowledge, and ethical values necessary to make impactful contributions to society. Through our initiatives, we seek to foster a culture of innovation, collaboration, and inclusivity, inspiring our members to push the boundaries of what is possible and create positive change in the world through technology.",
+      established: "2019",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at IOSD is to be a beacon of excellence in nurturing and empowering the future leaders of the software industry. We envision a world where every aspiring software developer is equipped with the skills, knowledge, and ethical values necessary to make impactful contributions to society. Through our initiatives, we seek to foster a culture of innovation, collaboration, and inclusivity, inspiring our members to push the boundaries of what is possible and create positive change in the world through technology.",
       // ../assets/img1.jpg
       team: [
         {
@@ -33,7 +33,7 @@ const ServiceComponent = () => {
           name: "Vansh",
           role: "General Secreatary",
           image:
-            adi
+          "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
           id: 1,
@@ -106,6 +106,8 @@ const ServiceComponent = () => {
         "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
 
+
+
     // TECHXTRACT
     {
       id: 1,
@@ -113,10 +115,10 @@ const ServiceComponent = () => {
       logo: techXtract, //passing img
       heading: "TechXtract",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "TechXtract is a pioneering technical society, a hub for enthusiasts in diverse fields like engineering, computer science, and information technology. We are a dynamic community, driven by the passion to explore, innovate, and create technological solutions that address real-world challenges. Through collaborative efforts and knowledge-sharing initiatives, we aim to cultivate a vibrant ecosystem where members can expand their skills, network with industry professionals, and embark on exciting projects that push the boundaries of technological advancement",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at TechXtract is to catalyze a revolution in technology by empowering individuals to unleash their full potential and drive positive change in society. We envision a future where innovation knows no bounds, where every member is equipped with the tools and resources needed to tackle complex problems and shape the world for the better. Through our commitment to excellence, inclusivity, and continuous learning, we strive to inspire the next generation of tech leaders who will pioneer breakthroughs and leave a lasting impact on the world",
 
       team: [
         {
@@ -157,23 +159,11 @@ const ServiceComponent = () => {
       ],
 
       achievements: [
-        <ul>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-        </ul>,
+            "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
 
       gallery: [
@@ -205,16 +195,19 @@ const ServiceComponent = () => {
       ],
     },
 
+
+
+// -----------------------------------TECHCOM----------------------------------------------
     {
       id: 2,
       title: "TECHCOM",
       logo: techXtract, //passing img
-      heading: "TechXtract",
+      heading: "TECHCOM",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "TechCom stands as a vibrant community within our college, serving as a nexus for students passionate about the convergence of technology and communication. Our society encompasses a diverse array of members, each bringing unique perspectives and skills to the table. From computer science to media studies, our collective expertise spans various technical disciplines, united by a common goal: to explore the transformative potential of technology in communication",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "At TechCom, our vision extends beyond mere integration of technology into communication; we aspire to redefine the very essence of human connection in the digital age. We envision a world where technology serves as a powerful tool for fostering understanding, collaboration, and empathy across cultures and communities. Our mission is to spearhead this revolution by developing innovative solutions that transcend traditional communication barriers. Through collaborative projects, workshops, and events, we aim to empower individuals with the skills and knowledge needed to leverage technology for meaningful communication. By bridging the gap between technology and society, we strive to create a more inclusive and interconnected world where communication knows no bounds",
 
       team: [
         {
@@ -255,23 +248,11 @@ const ServiceComponent = () => {
       ],
 
       achievements: [
-        <ul>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-        </ul>,
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
 
       gallery: [
@@ -302,6 +283,10 @@ const ServiceComponent = () => {
         },
       ],
     },
+
+
+
+    // ------------------------------------------------ATOM-------------------------------------------------------
 
     {
       id: 3,
@@ -309,10 +294,10 @@ const ServiceComponent = () => {
       logo: techXtract,
       heading: "A.T.O.M",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "A.T.O.M, previously known as Techtronix, stands as a beacon of innovation within the realm of robotics. Comprised of driven engineering students, we are united by a shared enthusiasm for pioneering technological advancements. Our society represents a convergence of diverse talents and perspectives, all focused on exploring the cutting edge of robotics and AI. With a new team at the helm, we embark on a journey fueled by curiosity and ambition, committed to pushing the boundaries of what is possible in the field of automation.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "At A.T.O.M, our vision extends far beyond the confines of our college campus. We envision a future where robotics and AI play a central role in shaping society, enhancing efficiency, and improving lives. Our mission is to lead this transformative charge, leveraging the latest technologies to drive innovation and progress. We aspire to create a dynamic ecosystem where ideas flourish, collaboration thrives, and breakthroughs are commonplace. Through impactful projects, collaborative research endeavors, and active participation in global competitions and events, we seek to inspire a new generation of robotics enthusiasts and pave the way for a brighter future driven by intelligent automation. With dedication, creativity, and a spirit of exploration, we aim to leave a lasting legacy in the field of robotics, contributing to a world where technology serves as a force for positive change.",
       // ../assets/img1.jpg
       team: [
         {
@@ -353,23 +338,11 @@ const ServiceComponent = () => {
       ],
 
       achievements: [
-        <ul>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-        </ul>,
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
 
       gallery: [
@@ -404,31 +377,209 @@ const ServiceComponent = () => {
         "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
 
+
+    // --------------------------------TECHVISION--------------------------------
+
     {
       id: 4,
       title: "TECHVISION",
-      heading: "UI/UX Design",
+      logo: techXtract,
+      heading: "TECHVISION",
+      brief:
+        "TechVISION is a pioneering technical society dedicated to fostering innovation and excellence among students passionate about cutting-edge technologies and visionary projects. With a diverse membership representing various technical disciplines, we serve as a dynamic platform for collaboration, learning, and exploration.",
+      established: "March 2016",
+      vision:
+        "Our vision at TechVISION is to harness the power of technology to envision and create a better future for all. We aim to inspire our members to dream big and think boldly, pushing the boundaries of what's possible through visionary projects and initiatives. By leveraging emerging technologies and fostering a culture of creativity and experimentation, we strive to empower individuals to make a positive impact on the world. Through our endeavors, we seek to cultivate a community of visionary leaders who are not only adept at navigating the complexities of modern technology but also committed to using their skills and knowledge to address pressing global challenges.",
+      // ../assets/img1.jpg
+      team: [
+        {
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+      ],
+
+      achievements: [
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
+      ],
+
+      gallery: [
+        {
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+      ],
+
+      content:
+        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
       content:
         "User experience can make or break digital success. Our UI/UX designers are dedicated to crafting interfaces that not only look stunning but also provide an intuitive journey for users. We understand the importance of aesthetics and functionality, ensuring your users have a delightful experience that keeps them coming back.    ",
     },
+
+
+
+
+
+
     {
       id: 5,
       title: "TECHALLIANCE",
-      heading: "Security Audits",
+      heading: "TECHALLIANCE",
+      logo:techXtract,
+      brief:
+        "TechAlliance is a dynamic technical society comprised of driven students passionate about forging alliances between technology and innovation. With a diverse membership spanning various technical disciplines, we unite under a common vision to drive positive change through collaborative projects and initiatives.",
+      established: "March 2016",
+      vision:
+        "Our vision at TechAlliance is to harness the collective power of technology and collaboration to address societal challenges and drive innovation forward. We aim to foster an environment where students can come together to exchange ideas, share knowledge, and work towards common goals. Through our efforts, we aspire to build bridges between academia, industry, and the community, creating opportunities for meaningful partnerships and impactful projects. By leveraging the latest advancements in technology and embracing a spirit of inclusivity and collaboration, we strive to empower our members to become catalysts for change and drive positive transformation in the world.",
+      // ../assets/img1.jpg
+      team: [
+        {
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+      ],
+
+      achievements: [
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
+      ],
+
+      gallery: [
+        {
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+      ],
+
+      content:
+        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
       content:
         "Security isnt just a feature - its a foundation. Our security audits scrutinize every aspect of your digital solution, identifying potential vulnerabilities and implementing rigorous security measures to safeguard against threats. With Prosecdevs, your data and user information are in the safest hands",
     },
+
+
+    // -------------------------------eDC----------------------------
 
     {
       id: 6,
       title: "eDC",
       logo: iosd,
-      heading: "International Organisation Of Software Developers",
+      heading: "Enterpreneurship and Development Cell",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "eDC (Entrepreneurship and Development Cell) is a vibrant society dedicated to fostering an entrepreneurial spirit and promoting socio-economic development among students. Comprising enthusiastic members from diverse backgrounds, we are united by a common passion for innovation, creativity, and social impact.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at eDC is to cultivate a culture of entrepreneurship and sustainable development within our college community and beyond. We aspire to empower students to turn their ideas into viable ventures, creating solutions to real-world problems and driving economic growth. Through a range of initiatives including workshops, mentoring programs, and networking events, we aim to provide students with the skills, resources, and support they need to succeed as entrepreneurs and changemakers. By fostering collaboration and fostering a spirit of innovation, we strive to contribute to the creation of a more prosperous and equitable society.",
       // ../assets/img1.jpg
       team: [
         {
@@ -469,23 +620,11 @@ const ServiceComponent = () => {
       ],
 
       achievements: [
-        <ul>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-        </ul>,
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
 
       gallery: [
@@ -519,17 +658,25 @@ const ServiceComponent = () => {
       content:
         "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
+
+
+
+
+
+
+
+    // ---------------------------CSI------------------------------------------------
 
     {
       id: 7,
       title: "CSI",
       logo: iosd,
-      heading: "International Organisation Of Software Developers",
+      heading: "Computer Society Of India",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "The Computer Society of India (CSI) is a premier technical society dedicated to advancing the field of computer science and technology. With a rich legacy spanning decades, CSI brings together students, professionals, researchers, and industry experts to foster innovation, knowledge sharing, and collaboration in the realm of computing.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at CSI is to be at the forefront of the digital revolution, driving advancements in computer science and technology that positively impact society. We aim to serve as a catalyst for innovation and excellence, providing a platform for individuals to explore emerging trends, exchange ideas, and leverage cutting-edge technologies. Through our diverse range of activities, including conferences, workshops, seminars, and publications, we strive to empower our members to thrive in an ever-evolving technological landscape and contribute to the development of a digitally empowered nation.",
       // ../assets/img1.jpg
       team: [
         {
@@ -570,23 +717,11 @@ const ServiceComponent = () => {
       ],
 
       achievements: [
-        <ul>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-        </ul>,
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
 
       gallery: [
@@ -621,16 +756,19 @@ const ServiceComponent = () => {
         "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
 
+
+
+    // ---------------------------------------------IEEE--------------------------------------
     {
       id: 8,
       title: "IEEE",
       logo: iosd,
-      heading: "International Organisation Of Software Developers",
+      heading: "Institute Of Electrical and Electronic Engineers",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "IEEE, the Institute of Electrical and Electronics Engineers, stands as a global powerhouse in the realm of technology and engineering. With a massive network spanning across continents, IEEE brings together professionals, researchers, and students alike, fostering collaboration and innovation in various domains of electrical and electronics engineering.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at IEEE is to be the driving force behind transformative advancements in technology that shape the future of humanity. We strive to lead the charge in pushing the boundaries of what's possible, from pioneering breakthroughs in renewable energy and sustainable technologies to revolutionizing communication systems and artificial intelligence. Through our extensive network of chapters, conferences, publications, and technical activities, we aim to inspire, educate, and empower our members to make meaningful contributions to society and drive positive change on a global scale.",
       // ../assets/img1.jpg
       team: [
         {
@@ -671,23 +809,11 @@ const ServiceComponent = () => {
       ],
 
       achievements: [
-        <ul>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-          <li>
-            1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi
-          </li>
-        </ul>,
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
       ],
 
       gallery: [
