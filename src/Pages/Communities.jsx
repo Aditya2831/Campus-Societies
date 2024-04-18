@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Cards from "../Components/Card";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
-import adi from "../assets/adi.jpg"
+
 
 
 
@@ -34,7 +34,7 @@ const ServiceComponent = () => {
           name: "Vansh",
           role: "General Secreatary",
           image:
-            adi
+          "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
           id: 1,

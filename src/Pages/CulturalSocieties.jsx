@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Cards from "../Components/Card";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
-import adi from "../assets/adi.jpg"
+
 
 
 
@@ -19,14 +19,14 @@ const ServiceComponent = () => {
   const tabs = [
     {
       id: 0,
-      title: "IOSD",
+      title: "Aayam",
       logo: iosd,
-      heading: "International Organisation Of Software Developers",
+      heading: "Aayam (The Dramatics Society)",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Aayam, the dramatics society, is a vibrant cultural hub within our college community, comprising passionate individuals who share a love for the performing arts. From seasoned actors to backstage crew, we come together as a close-knit family, bound by our shared enthusiasm for storytelling and creative expression.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Aayam is to celebrate the rich tapestry of human experiences through the medium of theater. We strive to captivate audiences with compelling narratives that provoke thought, evoke emotion, and foster empathy. Through our performances, workshops, and outreach initiatives, we aim to ignite a passion for the arts, inspire self-discovery, and promote cultural exchange. By nurturing talent and providing a platform for artistic expression, we seek to leave a lasting impact on our community, enriching lives and fostering a deeper appreciation for the power of storytelling.",
       // ../assets/img1.jpg
       team: [
         {
@@ -34,7 +34,7 @@ const ServiceComponent = () => {
           name: "Vansh",
           role: "General Secreatary",
           image:
-            adi
+          "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
         },
         {
           id: 1,
@@ -109,17 +109,17 @@ const ServiceComponent = () => {
 
 
 
-    // TECHXTRACT
+    // FUNK IN MOTION
     {
       id: 1,
-      title: "TECHXTRACT",
+      title: "Funk In Motion",
       logo: techXtract, //passing img
-      heading: "TechXtract",
+      heading: "Funk In Motion",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Funk In Motion, the Western dance society, is a dynamic cultural force within our college, comprising a diverse group of individuals who share a passion for dance and performance. From seasoned dancers to newcomers, we come together as a tight-knit community, united by our love for movement, rhythm, and expression.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Funk In Motion is to ignite the stage with energy, creativity, and innovation, showcasing the vibrant artistry of Western dance forms. We strive to push the boundaries of choreography and performance, delivering electrifying routines that captivate audiences and leave a lasting impression. Through our dedication to excellence, teamwork, and self-expression, we aim to inspire others to embrace their love for dance and join us in celebrating the joy of movement. As ambassadors of rhythm and grace, we aspire to leave a lasting legacy of passion and creativity, enriching our college community and beyond with the infectious spirit of Funk In Motion.",
 
       team: [
         {
@@ -198,17 +198,17 @@ const ServiceComponent = () => {
 
 
 
-// -----------------------------------TECHCOM----------------------------------------------
+// -----------------------------------AFFINITY----------------------------------------------
     {
       id: 2,
-      title: "TECHCOM",
+      title: "Affinity",
       logo: techXtract, //passing img
-      heading: "TECHCOM",
+      heading: "Affinity",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Affinity, the musical society, is a harmonious gathering of individuals who share a profound love for music and performance. Comprising singers, instrumentalists, and music enthusiasts, we come together as a close-knit community, united by our passion for creating beautiful melodies and captivating audiences with our artistry.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Affinity is to resonate with hearts and minds through the universal language of music. We strive to create immersive musical experiences that evoke emotion, inspire creativity, and foster a sense of connection among our audience. Through our diverse repertoire and dynamic performances, we aim to celebrate the richness of musical traditions and genres, from classical to contemporary, while pushing the boundaries of innovation and expression. As ambassadors of melody and harmony, we seek to leave a lasting impact on our college community and beyond, spreading joy and inspiration through the transformative power of music.",
 
       team: [
         {
@@ -287,18 +287,18 @@ const ServiceComponent = () => {
 
 
 
-    // ------------------------------------------------ATOM-------------------------------------------------------
+    // ------------------------------------------------Expressions-------------------------------------------------------
 
     {
       id: 3,
-      title: "A.T.O.M",
+      title: "Expressions",
       logo: techXtract,
-      heading: "A.T.O.M",
+      heading: "Expressions",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Expressions, the art and crafts society, is a vibrant community of creative individuals who come together to explore the boundless world of artistic expression. Comprising painters, sculptors, crafters, and enthusiasts, we celebrate the beauty of creativity and imagination in all its forms.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Expressions is to cultivate a culture of artistic exploration and self-expression, empowering individuals to unleash their inner creativity and share their unique perspectives with the world. Through a diverse range of artistic mediums and techniques, we aim to inspire, educate, and engage our community in the transformative power of art. From traditional painting and sculpture to contemporary mixed media and digital art, we strive to provide a supportive and inclusive environment where everyone can discover their artistic voice and find joy in the process of creation. As ambassadors of creativity and beauty, we aspire to leave a lasting legacy of inspiration and innovation, enriching our college community and beyond with the richness of Expressions.",
       // ../assets/img1.jpg
       team: [
         {
@@ -379,18 +379,18 @@ const ServiceComponent = () => {
     },
 
 
-    // --------------------------------TECHVISION--------------------------------
+    // --------------------------------KEYARA--------------------------------
 
     {
       id: 4,
-      title: "TECHVISION",
+      title: "Keyara",
       logo: techXtract,
-      heading: "TECHVISION",
+      heading: "Keyara",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Keyara, the fashion society, is a dynamic community of fashion enthusiasts who come together to celebrate style, creativity, and self-expression. Comprising designers, models, stylists, and fashion aficionados, we unite under a shared passion for exploring the ever-evolving world of fashion.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Keyara is to redefine the boundaries of fashion and inspire individuals to embrace their unique sense of style. We strive to create a platform where creativity flourishes, trends are challenged, and diversity is celebrated. Through our fashion shows, workshops, and collaborative projects, we aim to showcase the beauty of self-expression and empower individuals to express themselves confidently through their clothing and accessories. As ambassadors of style and innovation, we seek to leave a lasting impact on our college community and beyond, inspiring others to embrace fashion as a form of art and self-expression.",
       // ../assets/img1.jpg
       team: [
         {
@@ -476,17 +476,17 @@ const ServiceComponent = () => {
 
 
 
-
+// -----------------------------------LITUM----------------------------------------------
     {
       id: 5,
-      title: "TECHALLIANCE",
-      heading: "TECHALLIANCE",
+      title: "Literary Umbrella",
+      heading: "Literary Umbrella",
       logo:techXtract,
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Literary Umbrella, the literary society, is a vibrant community of wordsmiths and book lovers who come together to celebrate the written word in all its forms. Comprising poets, writers, readers, and lovers of literature, we unite under a shared passion for storytelling, expression, and exploration of ideas.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Literary Umbrella is to cultivate a space where creativity flourishes, ideas are exchanged, and voices are heard. We strive to promote literacy and a love for literature through various activities such as book clubs, writing workshops, poetry slams, and literary events. Through our collective efforts, we aim to inspire and empower individuals to discover the transformative power of words and harness their own voices to express themselves and provoke thought. As ambassadors of literature and literacy, we aspire to leave a lasting impact on our college community and beyond, fostering a culture of intellectual curiosity, empathy, and understanding through the umbrella of literature.",
       // ../assets/img1.jpg
       team: [
         {
@@ -569,207 +569,18 @@ const ServiceComponent = () => {
     },
 
 
-    // -------------------------------eDC----------------------------
+    // -------------------------------Phrenics----------------------------
 
     {
       id: 6,
-      title: "eDC",
+      title: "Phrenics",
       logo: iosd,
-      heading: "Enterpreneurship and Development Cell",
+      heading: "PHRENICS",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Phrenics, the videography and photography society, is a dynamic community of visual storytellers and creatives who come together to capture and showcase the world through the lens. Comprising photographers, videographers, editors, and enthusiasts, we unite under a shared passion for visual arts and storytelling.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
-
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
-    },
-
-
-
-
-
-
-
-    // ---------------------------CSI------------------------------------------------
-
-    {
-      id: 7,
-      title: "CSI",
-      logo: iosd,
-      heading: "Computer Society Of India",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
-
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
-    },
-
-
-
-    // ---------------------------------------------IEEE--------------------------------------
-    {
-      id: 8,
-      title: "IEEE",
-      logo: iosd,
-      heading: "Institute Of Electrical and Electronic Engineers",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at Phrenics is to harness the power of imagery to inspire, educate, and connect people across boundaries. We strive to cultivate a culture of creativity and innovation, empowering individuals to explore their unique perspectives and tell compelling stories through photography and videography. Through workshops, photo walks, exhibitions, and collaborative projects, we aim to provide a platform for members to develop their skills, share their work, and engage with the community. As ambassadors of visual storytelling, we aspire to leave a lasting impact on our college community and beyond, capturing moments, sparking conversations, and celebrating the beauty and diversity of the world through the lens of Phrenics.",
       // ../assets/img1.jpg
       team: [
         {

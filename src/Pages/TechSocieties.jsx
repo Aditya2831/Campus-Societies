@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Cards from "../Components/Card";
+// import Cards from "../Components/Card";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
-import adi from "../assets/adi.jpg"
+
 
 
 
@@ -33,7 +33,7 @@ const ServiceComponent = () => {
           name: "Vansh",
           role: "General Secreatary",
           image:
-          "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+          "public\gallery\iosd1.jpg",
         },
         {
           id: 1,
@@ -78,27 +78,27 @@ const ServiceComponent = () => {
         {
           id: 0,
           image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+            "public/gallery/iosd01.jpg",
         },
         {
           id: 1,
           image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+            "public/gallery/iosd02.jpg"
         },
         {
           id: 2,
           image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+            "public/gallery/iosd03.jpg",
         },
         {
           id: 3,
           image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+            "public/gallery/iosd04.jpg",
         },
         {
           id: 4,
           image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+            "public/gallery/iosd05.jpg",
         },
       ],
 
