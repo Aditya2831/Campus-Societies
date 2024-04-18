@@ -103,8 +103,7 @@ const ServiceComponent = () => {
         },
       ],
 
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
+
     },
 
 
@@ -374,8 +373,6 @@ const ServiceComponent = () => {
         },
       ],
 
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
 
 
@@ -465,11 +462,6 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
-
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
-      content:
-        "User experience can make or break digital success. Our UI/UX designers are dedicated to crafting interfaces that not only look stunning but also provide an intuitive journey for users. We understand the importance of aesthetics and functionality, ensuring your users have a delightful experience that keeps them coming back.    ",
     },
 
 
@@ -562,10 +554,6 @@ const ServiceComponent = () => {
         },
       ],
 
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
-      content:
-        "Security isnt just a feature - its a foundation. Our security audits scrutinize every aspect of your digital solution, identifying potential vulnerabilities and implementing rigorous security measures to safeguard against threats. With Prosecdevs, your data and user information are in the safest hands",
     },
 
 
@@ -655,9 +643,6 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
-
-      content:
-        "At Prosecdevs, we are your one-stop destination for a wide spectrum of web and app development services that combine innovation, security, and functionality. Our expert team is driven by the desire to create digital solutions that not only meet your needs but exceed your expectations. With a focus on secure coding practices, we deliver projects that are robust, scalable, and geared towards success.",
     },
   ];
 
