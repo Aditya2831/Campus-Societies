@@ -4,6 +4,7 @@ import { createClient } from "@supabase/supabase-js";
 const supabase = createClient("https://fcbyrfhpsxveworvwzep.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjYnlyZmhwc3h2ZXdvcnZ3emVwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTAzNjE0NTYsImV4cCI6MjAyNTkzNzQ1Nn0.vkxkszcZ8RJYz91qhIJ8oFi6W6gzhNDbCwp_t_S4Qbc");
 
 function UserForm() {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [enrollmentNumber, setEnrollmentNumber] = useState('');
   const [formStatus, setFormStatus] = useState('');
@@ -18,7 +19,7 @@ function UserForm() {
       const { data, error } = await supabase
         .from('Socs')
         .insert([
-          { email: email, enrollment_number: enrollmentNumber }
+          { email: email, enrollment_number: enrollmentNumber, name:name }
         ]);
   
       if (error) {
@@ -26,6 +27,7 @@ function UserForm() {
         setFormStatus('Failed to submit. Please try again.');
       } else {
         console.log('Data inserted successfully:', data);
+        setName('');
         setEmail('');
         setEnrollmentNumber('');
         setFormStatus('Submitted successfully!');
@@ -41,6 +43,15 @@ function UserForm() {
   return (
     <form onSubmit={handleSubmit}>
       <h2>Enter Your Details</h2>
+      <div>
+        <label>Name:</label>
+        <input
+          type="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+        />
+      </div>
       <div>
         <label>Email:</label>
         <input
