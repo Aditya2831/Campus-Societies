@@ -13,23 +13,29 @@ function UserForm() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setFormStatus('Submitting...');
-
-    const { data, error } = await supabase
-      .from('Socs')
-      .insert([
-        { email: email, enrollment_number: enrollmentNumber }
-      ]);
-
-    if (error) {
-      console.error('Error inserting data: ', error);
-      setFormStatus('Failed to submit. Please try again.');
-    } else {
-      console.log('Data inserted successfully:', data);
-      setEmail('');
-      setEnrollmentNumber('');
-      setFormStatus('Submitted successfully!');
+  
+    try {
+      const { data, error } = await supabase
+        .from('Socs')
+        .insert([
+          { email: email, enrollment_number: enrollmentNumber }
+        ]);
+  
+      if (error) {
+        console.error('Error inserting data:', error.message);
+        setFormStatus('Failed to submit. Please try again.');
+      } else {
+        console.log('Data inserted successfully:', data);
+        setEmail('');
+        setEnrollmentNumber('');
+        setFormStatus('Submitted successfully!');
+      }
+    } catch (err) {
+      console.error('Exception caught:', err);
+      setFormStatus('Failed to submit. Please check console for details.');
     }
   };
+  
 
 
   return (
