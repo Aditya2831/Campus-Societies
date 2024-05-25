@@ -9,6 +9,18 @@ function UserForm() {
   const [enrollmentNumber, setEnrollmentNumber] = useState('');
   const [formStatus, setFormStatus] = useState('');
 
+  const handle = async () => {
+    const { data,  error } = await supabase.auth.signInWithOAuth({
+        provider: 'google'
+    });
+
+    if (error) {
+        console.error('Error signing in:', error);
+    } else {
+        console.log('User:', data);
+        // console.log('Session:', session);
+    }
+};
 
 
   const handleSubmit = async (event) => {
@@ -41,6 +53,7 @@ function UserForm() {
 
 
   return (
+    <>
     <form onSubmit={handleSubmit}>
       <h2>Enter Your Details</h2>
       <div>
@@ -72,7 +85,29 @@ function UserForm() {
       </div>
       <button type="submit">Submit</button>
       {formStatus && <p>{formStatus}</p>}
+
+     
     </form>
+
+    <div onClick={handle}>
+      signinwithGoogle
+    </div>
+
+    {/* <div>
+      {user ? (
+        <div>
+          <h2>Logged in as: {user.email}</h2>
+          <button onClick={() => supabase.auth.signOut()}>
+            Sign Out
+          </button>
+        </div>
+      ) : (
+        <button onClick={() => supabase.auth.signIn({ provider: 'google' })}>
+          Sign in with Google
+        </button>
+      )}
+    </div> */}
+    </>
   );
 }
 
