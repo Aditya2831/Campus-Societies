@@ -103,6 +103,8 @@ const ServiceComponent = () => {
         },
       ],
 
+      instagramLink:"https://www.instagram.com/aayaam_mait/"
+
 
     },
 
@@ -193,6 +195,7 @@ const ServiceComponent = () => {
             "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
       ],
+      instagramLink:"https://www.instagram.com/funkinmotion/"
     },
 
 
@@ -282,6 +285,7 @@ const ServiceComponent = () => {
             "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
         },
       ],
+      instagramLink:"https://www.instagram.com/mait.affinity/"
     },
 
 
@@ -372,7 +376,7 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
-
+      instagramLink:"https://www.instagram.com/expressions.mait/"
     },
 
 
@@ -462,6 +466,7 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
+      instagramLink:"https://www.instagram.com/keyara_official/"
     },
 
 
@@ -553,6 +558,7 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
+      instagramLink:"https://www.instagram.com/literaryumbrella/"
 
     },
 
@@ -643,6 +649,7 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
+      instagramLink:"https://www.instagram.com/phrenics.mait/"
     },
   ];
 
@@ -748,12 +755,19 @@ const ServiceComponent = () => {
             </div>
           </div>
 
-          <div>
+          <div className="flex gap-10 justify-center">
             <button
               type="button"
               class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-10 py-3.5 text-center me-2 mb-2">
               INTERESTED
             </button>
+            <a
+              href={tabs[selectedTab].instagramLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-10 py-3.5 text-center me-2 mb-2">
+              Instagram
+            </a>
           </div>
         </div>
       </div>
