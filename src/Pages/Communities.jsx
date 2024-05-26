@@ -5,8 +5,6 @@ import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
 
 
-
-
 import {
   VerticalTimeline,
   VerticalTimelineElement,

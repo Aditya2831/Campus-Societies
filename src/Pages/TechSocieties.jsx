@@ -22,19 +22,19 @@ const ServiceComponent = () => {
       logo: iosd,
       heading: "International Organisation Of Software Developers",
       brief:
-        "Our vision at IOSD is to be a beacon of excellence in nurturing and empowering the future leaders of the software industry. We envision a world where every aspiring software developer is equipped with the skills, knowledge, and ethical values necessary to make impactful contributions to society. Through our initiatives, we seek to foster a culture of innovation, collaboration, and inclusivity, inspiring our members to push the boundaries of what is possible and create positive change in the world through technology.",
+      "We, the International Organization for Software Developers (IOSD), constitute a dynamic college society rallying students with a fervor for software development. Our community is a melting pot of diverse talents, united by a common passion for coding and technological innovation. With a global perspective, we aim to harness the collective potential of our members, providing them with opportunities to learn, grow, and excel in the ever-evolving field of software development.",
       established: "2019",
       vision:
         "Our vision at IOSD is to be a beacon of excellence in nurturing and empowering the future leaders of the software industry. We envision a world where every aspiring software developer is equipped with the skills, knowledge, and ethical values necessary to make impactful contributions to society. Through our initiatives, we seek to foster a culture of innovation, collaboration, and inclusivity, inspiring our members to push the boundaries of what is possible and create positive change in the world through technology.",
       // ../assets/img1.jpg
       team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-          "public\gallery\iosd1.jpg",
-        },
+        // {
+        //   id: 0,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //   "public\gallery\iosd1.jpg",
+        // },
         {
           id: 1,
           name: "Vansh",
