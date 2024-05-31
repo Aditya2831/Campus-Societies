@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 // import Cards from "../Components/Card";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
 
@@ -28,13 +37,7 @@ const ServiceComponent = () => {
         "Our vision at IOSD is to be a beacon of excellence in nurturing and empowering the future leaders of the software industry. We envision a world where every aspiring software developer is equipped with the skills, knowledge, and ethical values necessary to make impactful contributions to society. Through our initiatives, we seek to foster a culture of innovation, collaboration, and inclusivity, inspiring our members to push the boundaries of what is possible and create positive change in the world through technology.",
       // ../assets/img1.jpg
       team: [
-        // {
-        //   id: 0,
-        //   name: "Vansh",
-        //   role: "General Secreatary",
-        //   image:
-        //   "public\gallery\iosd1.jpg",
-        // },
+       
         {
           id: 1,
           name: "Vansh",
@@ -888,10 +891,38 @@ const ServiceComponent = () => {
           <div>
             <h1 className="text-3xl">Meet Our Team</h1>
             <div className="flex justify-evenly">
+
+            <Swiper
+               effect={'coverflow'}
+               grabCursor={true}
+               centeredSlides={true}
+               loop={true}
+               slidesPerView={3}
+               coverflowEffect={
+                {
+                  rotate:0,
+                  stretch:0,
+                  depth:100,
+                  modifier:2.5
+                }
+               }
+               pagination={{el:'.swiper-pagination', clickable:true}}
+               navigation={{
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+                clickable:true,
+
+               }}
+               modules={[EffectCoverflow, Pagination, Navigation]}
+               className="swiper_container"
+               >
+      
               {tabs[selectedTab].team.map((member) => (
+               
                 <div
                   key={member.id}
                   className="flex flex-col items-center mr-4 justify-evenly">
+                   <SwiperSlide>
                   <img
                     src={member.image}
                     alt={member.name}
@@ -899,8 +930,23 @@ const ServiceComponent = () => {
                   />
                   <p>{member.name}</p>
                   <p>{member.role}</p>
-                </div>
+                  </SwiperSlide>
+                </div> 
               ))}
+             
+              <div className="slider-controler">
+                    <div className="swiper-button-prev slider-arrow">
+                      <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div className="swiper-button-next slider-arrow">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+
+                    <div className="swiper-pagination">
+
+                    </div>
+                  </div>
+              </Swiper>
             </div>
           </div>
 
