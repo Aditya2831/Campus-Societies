@@ -2,10 +2,21 @@ import React, { useState } from "react";
 // import Cards from "../Components/Card";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import iosdMembers from "../../public/iosdMembers";
+// import iosdMembers from "../../public/iosdMembers";
+import aditya from "../assets/Team_members/iosd/Aditya_Gupta.jpg"
+import arham from "../assets/Team_members/iosd/Arham_Jain.png"
+import arnav from "../assets/Team_members/iosd/Arnav_Gupta.jpg"
+import jai from "../assets/Team_members/iosd/Jai_Sukheja .jpg"
+import jatin from "../assets/Team_members/iosd/Jatin_Bhatt.jpg"
+import jayant from "../assets/Team_members/iosd/Jayant_Aggarwal .jpg"
+import jivesh from "../assets/Team_members/iosd/JiveshLakhani.jpg"
+import keshav from "../assets/Team_members/iosd/Keshav_Goyal.jpeg"
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
@@ -40,32 +51,60 @@ const ServiceComponent = () => {
        
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+          name: "Aditya Gupta",
+          role: "Treasurer",
+          image: aditya
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Arham",
+          role: "Operations Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            arham
         },
         {
           id: 3,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            arnav
         },
         {
           id: 4,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            jai
         },
+        {
+          id: 5,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            jatin
+        },
+        {
+          id: 5,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            jivesh
+        },
+        {
+          id: 5,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            jayant
+        },
+        {
+          id: 5,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            keshav
+        },
+
       ],
 
       achievements: [
