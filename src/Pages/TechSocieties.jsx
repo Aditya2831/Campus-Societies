@@ -57,50 +57,50 @@ const ServiceComponent = () => {
         },
         {
           id: 2,
-          name: "Arham",
+          name: "Arham Jain",
           role: "Operations Head",
           image:
             arham
         },
         {
           id: 3,
-          name: "Vansh",
+          name: "Arnav Gupta",
           role: "General Secreatary",
           image:
             arnav
         },
         {
           id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Jai Sukheja",
+          role: "SIG Head",
           image:
             jai
         },
         {
           id: 5,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Jatin Gupta",
+          role: "Operations Head",
           image:
             jatin
         },
         {
           id: 5,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Jivesh Lakhani",
+          role: "SIG Head",
           image:
             jivesh
         },
         {
           id: 5,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Jayant Aggarwal",
+          role: "Graphics Head",
           image:
             jayant
         },
         {
           id: 5,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Keshav",
+          role: "Graphics Head",
           image:
             keshav
         },
@@ -928,7 +928,7 @@ const ServiceComponent = () => {
 
           {/* Container for team member images */}
           <div>
-            <h1 className="text-3xl">Meet Our Team</h1>
+            <h1 className="text-3xl mb-6">Meet Our Team</h1>
             <div className="flex justify-evenly">
 
             <Swiper
@@ -961,7 +961,7 @@ const ServiceComponent = () => {
                 <div
                   key={member.id}
                   className="flex flex-col items-center mr-4 justify-evenly">
-                   <SwiperSlide>
+                   <SwiperSlide className="">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -980,9 +980,7 @@ const ServiceComponent = () => {
                     <div className="swiper-button-next slider-arrow">
                       <ion-icon name="arrow-forward-outline"></ion-icon>
                     </div>
-
                     <div className="swiper-pagination">
-
                     </div>
                   </div>
               </Swiper>
@@ -991,8 +989,8 @@ const ServiceComponent = () => {
 
           {/* Rendering achievements */}
           <div className="achievements">
-            <h1 className="text-3xl">Achievements</h1>
-            <VerticalTimeline className="text-black">
+            <h1 className="text-2xl">Achievements</h1>
+            <VerticalTimeline className="text-black text-xs">
               {tabs[selectedTab].achievements.map((achievement, index) => (
                 <VerticalTimelineElement key={index} className="text-black">
                   {achievement}
