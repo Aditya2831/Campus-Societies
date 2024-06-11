@@ -26,6 +26,38 @@ import iosd4 from "../assets/Snapshots/iosd/iosd04.jpg"
 import iosd5 from "../assets/Snapshots/iosd/iosd05.jpg"
 
 
+//import techxtract 
+import techx1 from "../assets/Team_members/techxtract/tech1.png"
+import techx2 from "../assets/Team_members/techxtract/tech2.png"
+import techx3 from "../assets/Team_members/techxtract/tech3.png"
+import techx4 from "../assets/Team_members/techxtract/tech4.png"
+import techx5 from "../assets/Team_members/techxtract/tech5.png"
+import techx6 from "../assets/Team_members/techxtract/tech6.png"
+
+
+//import techcom
+import techc1 from "../assets/Team_members/techcom/techc1.png"
+import techc2 from "../assets/Team_members/techcom/techc2.png"
+import techc3 from "../assets/Team_members/techcom/techc3.png"
+import techc4 from "../assets/Team_members/techcom/techc4.png"
+import techc5 from "../assets/Team_members/techcom/techc5.png"
+import techc6 from "../assets/Team_members/techcom/techc6.png"
+import techc7 from "../assets/Team_members/techcom/techc7.png"
+import techc8 from "../assets/Team_members/techcom/techc8.png"
+
+
+//import tva
+import tva1 from "../assets/Team_members/tva/tva1.png"
+import tva2 from "../assets/Team_members/tva/tva2.png"
+import tva3 from "../assets/Team_members/tva/tva3.png"
+import tva4 from "../assets/Team_members/tva/tva4.png"
+import tva5 from "../assets/Team_members/tva/tva5.png"
+
+
+
+
+
+
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 import iosd from "../assets/logos/iosd.jpg";
@@ -173,38 +205,45 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Rohan Goyal",
+          role: "Promotions Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techx1,
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Anupam Kasturia",
+          role: "Tech Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+           techx2,
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Shivam Dohare",
+          role: "Graphic Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techx3,
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Karthik Nair",
+          role: "Operational Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techx4,
         },
         {
           id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Naman Jolly",
+          role: "Vice President",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techx5,
+        },
+        {
+          id: 5,
+          name: "Jagrit Dudeja",
+          role: "President",
+          image:
+            techx6,
         },
       ],
 
@@ -263,38 +302,60 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Arnav Raj",
+          role: "Department PR Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techc1,
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Kartik Raj",
+          role: "Design Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techc2,
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Swati Goel",
+          role: "PR Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techc3,
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Nawed Ali",
+          role: "Social Media Head",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techc4,
         },
+  
         {
           id: 4,
-          name: "Vansh",
+          name: "Himanshu Kataria",
+          role: "Operational Head",
+          image:
+            techc5,
+        },
+        {
+          id: 5,
+          name: "Harsh Rajput",
           role: "General Secreatary",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            techc6,
+        },
+        {
+          id: 6,
+          name: "Mohammed Khundmeer Siddiq",
+          role: "Vice President",
+          image:
+            techc7,
+        },
+        {
+          id: 7,
+          name: "Mohammed Khundmeer Arpit Goyal",
+          role: "President",
+          image:
+            techc8,
         },
       ],
 
@@ -444,39 +505,40 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Ayush",
+          role: "Event Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           tva1,
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Hardik",
+          role: "Creative Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            tva2,
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Kanishq",
+          role: "Operational Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            tva3,
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Shubh",
+          role: "President",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            tva4,
         },
         {
           id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Manish",
+          role: "Technical Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            tva5,
         },
+        
       ],
 
       achievements: [
@@ -516,11 +578,6 @@ const ServiceComponent = () => {
       ],
       instagramLink:"https://www.instagram.com/tva_mait/"
     },
-
-
-
-
-
 
     {
       id: 5,
