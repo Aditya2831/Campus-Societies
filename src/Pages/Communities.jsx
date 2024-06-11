@@ -11,558 +11,40 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+
+import edc1 from "../assets/Team_members/edc/edc1.png"
+import edc2 from "../assets/Team_members/edc/edc2.png"
+import edc3 from "../assets/Team_members/edc/edc3.png"
+import edc4 from "../assets/Team_members/edc/edc4.png"
+import edc5 from "../assets/Team_members/edc/edc5.png"
+
+import ieee1 from "../assets/Team_members/ieee/ieee1.png"
+import ieee2 from "../assets/Team_members/ieee/ieee2.png"
+import ieee3 from "../assets/Team_members/ieee/ieee3.png"
+import ieee4 from "../assets/Team_members/ieee/ieee4.png"
+
+
+import nss1 from "../assets/Team_members/nss/nss1.png"
+import nss2 from "../assets/Team_members/nss/nss2.png"
+import nss3 from "../assets/Team_members/nss/nss3.png"
+import nss4 from "../assets/Team_members/nss/nss4.png"
+
 const ServiceComponent = () => {
   const [selectedTab, setSelectedTab] = useState(0);
 
   const tabs = [
+   
+
     {
       id: 0,
-      title: "IOSD",
-      logo: iosd,
-      heading: "International Organisation Of Software Developers",
-      brief:
-        "We, the International Organization for Software Developers (IOSD), constitute a dynamic college society rallying students with a fervor for software development. Our community is a melting pot of diverse talents, united by a common passion for coding and technological innovation. With a global perspective, we aim to harness the collective potential of our members, providing them with opportunities to learn, grow, and excel in the ever-evolving field of software development.",
-      established: "March 2016",
-      vision:
-        "Our vision at IOSD is to be a beacon of excellence in nurturing and empowering the future leaders of the software industry. We envision a world where every aspiring software developer is equipped with the skills, knowledge, and ethical values necessary to make impactful contributions to society. Through our initiatives, we seek to foster a culture of innovation, collaboration, and inclusivity, inspiring our members to push the boundaries of what is possible and create positive change in the world through technology.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-          "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-      
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
-    },
-
-
-
-    // TECHXTRACT
-    {
-      id: 1,
-      title: "TECHXTRACT",
-      logo: techXtract, //passing img
-      heading: "TechXtract",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-      ],
-
-      achievements: [
-            "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 1,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 2,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 3,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 4,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-      ],
-    },
-
-
-
-// -----------------------------------TECHCOM----------------------------------------------
-    {
-      id: 2,
-      title: "TECHCOM",
-      logo: techXtract, //passing img
-      heading: "TECHCOM",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 1,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 2,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 3,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 4,
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-      ],
-    },
-
-
-
-    // ------------------------------------------------ATOM-------------------------------------------------------
-
-    {
-      id: 3,
-      title: "A.T.O.M",
-      logo: techXtract,
-      heading: "A.T.O.M",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
-    },
-
-
-    // --------------------------------TECHVISION--------------------------------
-
-    {
-      id: 4,
-      title: "TECHVISION",
-      logo: techXtract,
-      heading: "TECHVISION",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
-    },
-
-
-
-
-
-
-    {
-      id: 5,
-      title: "TECHALLIANCE",
-      heading: "TECHALLIANCE",
-      logo:techXtract,
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
-    },
-
-
-    // -------------------------------eDC----------------------------
-
-    {
-      id: 6,
       title: "eDC",
       logo: iosd,
       heading: "Enterpreneurship and Development Cell",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "eDC (Entrepreneurship and Development Cell) is a vibrant society dedicated to fostering an entrepreneurial spirit and promoting socio-economic development among students. Comprising enthusiastic members from diverse backgrounds, we are united by a common passion for innovation, creativity, and social impact.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at eDC is to cultivate a culture of entrepreneurship and sustainable development within our college community and beyond. We aspire to empower students to turn their ideas into viable ventures, creating solutions to real-world problems and driving economic growth. Through a range of initiatives including workshops, mentoring programs, and networking events, we aim to provide students with the skills, resources, and support they need to succeed as entrepreneurs and changemakers. By fostering collaboration and fostering a spirit of innovation, we strive to contribute to the creation of a more prosperous and equitable society.",
       // ../assets/img1.jpg
       team: [
         {
@@ -570,35 +52,35 @@ const ServiceComponent = () => {
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            edc1,
         },
         {
           id: 1,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            edc2,
         },
         {
           id: 2,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            edc3,
         },
         {
           id: 3,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            edc4,
         },
         {
           id: 4,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            edc5,
         },
       ],
 
@@ -637,145 +119,51 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
-    },
-
-    // ---------------------------CSI------------------------------------------------
-
-    {
-      id: 7,
-      title: "CSI",
-      logo: iosd,
-      heading: "Computer Society Of India",
-      brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      established: "March 2016",
-      vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
-      // ../assets/img1.jpg
-      team: [
-        {
-          id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-      ],
-
-      achievements: [
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
-        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
-      ],
-
-      gallery: [
-        {
-          id: 0,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 1,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 2,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 3,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-        {
-          id: 4,
-          image:
-            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
-        },
-      ],
+      instagramLink:"https://www.instagram.com/edcell.mait/"
     },
 
 
 
-    // ---------------------------------------------IEEE--------------------------------------
+
     {
-      id: 8,
+      id: 1,
       title: "IEEE",
       logo: iosd,
       heading: "Institute Of Electrical and Electronic Engineers",
       brief:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "IEEE, the Institute of Electrical and Electronics Engineers, stands as a global powerhouse in the realm of technology and engineering. With a massive network spanning across continents, IEEE brings together professionals, researchers, and students alike, fostering collaboration and innovation in various domains of electrical and electronics engineering.",
       established: "March 2016",
       vision:
-        "In the heart of the bustling city, amidst the towering skyscrapers and bustling streets, lies a hidden gem of tranquility. Here, time seems to slow down, and the rhythm of life follows a different beat. As the sun sets, casting a warm glow over the horizon, the city comes alive with a kaleidoscope of colors and sounds. People from all walks of life gather, sharing stories and laughter under the starlit sky. It's a place where dreams are born and memories are made, a sanctuary in the midst of chaos.",
+        "Our vision at IEEE is to be the driving force behind transformative advancements in technology that shape the future of humanity. We strive to lead the charge in pushing the boundaries of what's possible, from pioneering breakthroughs in renewable energy and sustainable technologies to revolutionizing communication systems and artificial intelligence. Through our extensive network of chapters, conferences, publications, and technical activities, we aim to inspire, educate, and empower our members to make meaningful contributions to society and drive positive change on a global scale.",
       // ../assets/img1.jpg
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Divyansh Juneja",
+          role: "Chairperson",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           ieee1,
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Eshita Aishwarya",
+          role: "Chairperson",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           ieee2,
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Vridhi Garg",
+          role: "WIE Chairperson",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            ieee3,
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Shivam Gulati",
+          role: "Chairperson",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           ieee4,
         },
       ],
 
@@ -814,7 +202,91 @@ const ServiceComponent = () => {
             "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
         },
       ],
+      instagramLink:"https://www.instagram.com/ieeemait/"
     },
+
+
+    {
+      id: 2,
+      title: "NSS",
+      logo: iosd,
+      heading: "National Service Scheme",
+      brief:
+        "The National Service Scheme (NSS), launched in 1969 under the Ministry of Youth Affairs and Sports, Government of India, encourages students to participate in community service and social activities. It aims to develop students' personalities through involvement in various initiatives such as health camps, literacy programs, gain valuable life skills, enhance their understanding of societal issues, and contribute positively to the community.",
+      established: "March 2016",
+      vision:
+        "The vision of the National Service Scheme (NSS) is to cultivate a dedicated and socially responsible youth community committed to the nation's development. NSS aspires to nurture leadership, empathy, and a spirit of volunteerism among students, enabling them to address local and national challenges effectively. By promoting active participation in community service, NSS aims to create a generation of proactive citizens",
+      // ../assets/img1.jpg
+      team: [
+        {
+          id: 0,
+          name: "Jasjeev Singh kohli",
+          role: "Social Media Head",
+          image:
+           nss1,
+        },
+        {
+          id: 1,
+          name: "Vasu Singh",
+          role: "ChairpersGeneral Secretary",
+          image:
+           nss2,
+        },
+        {
+          id: 2,
+          name: "Anushka Bhat",
+          role: "Head Girl",
+          image:
+            nss3,
+        },
+        {
+          id: 3,
+          name: "Nikhil Kumar",
+          role: "Head Boy",
+          image:
+           nss4,
+        },
+      ],
+
+      achievements: [
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
+      ],
+
+      gallery: [
+        {
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+      ],
+      instagramLink:"https://www.instagram.com/ieeemait/"
+    },
+
+    
   ];
 
   return (
