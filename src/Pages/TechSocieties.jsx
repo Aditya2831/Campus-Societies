@@ -8,6 +8,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import iosdMembers from "../../public/iosdMembers";
+
 // import iosdMembers from "../../public/iosdMembers";
 import aditya from "../assets/Team_members/iosd/Aditya_Gupta.jpg"
 import arham from "../assets/Team_members/iosd/Arham_Jain.png"
@@ -120,27 +121,27 @@ const ServiceComponent = () => {
         {
           id: 0,
           image:
-            "public/gallery/iosd01.jpg",
+            "/gallery/iosd01.jpg",
         },
         {
           id: 1,
           image:
-            "public/gallery/iosd02.jpg"
+            "/gallery/iosd02.jpg"
         },
         {
           id: 2,
           image:
-            "public/gallery/iosd03.jpg",
+            "/gallery/iosd03.jpg",
         },
         {
           id: 3,
           image:
-            "public/gallery/iosd04.jpg",
+            "/gallery/iosd04.jpg",
         },
         {
           id: 4,
           image:
-            "public/gallery/iosd05.jpg",
+            "/gallery/iosd05.jpg",
         },
       ],
       instagramLink: "https://www.instagram.com/iosdmait/"
