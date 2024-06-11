@@ -3,6 +3,15 @@ import React, { useState } from "react";
 import Cards from "../Components/Card";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 import {
@@ -49,36 +58,36 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Ajeet",
+          role: "Event Head",
           image:
             edc1,
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Kriti",
+          role: "Social Media Head",
           image:
             edc2,
         },
         {
           id: 2,
-          name: "Vansh",
+          name: "Tripti",
           role: "General Secreatary",
           image:
             edc3,
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Gaurav",
+          role: "Vice President",
           image:
             edc4,
         },
         {
           id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Sehaj",
+          role: "President",
           image:
             edc5,
         },
@@ -289,6 +298,7 @@ const ServiceComponent = () => {
     
   ];
 
+  
   return (
     <div className="flex text-center font-chakraPetch font-semibold">
       <div className="md:w-1/5 md:border-r ml-1 mt-1 text-center bg-gradient-to-r from-gray-900 via-slate-900 to-slate-900">
@@ -342,12 +352,40 @@ const ServiceComponent = () => {
 
           {/* Container for team member images */}
           <div>
-            <h1 className="text-3xl">Meet Our Team</h1>
+            <h1 className="text-3xl mb-6">Meet Our Team</h1>
             <div className="flex justify-evenly">
+
+            <Swiper
+               effect={'coverflow'}
+               grabCursor={true}
+               centeredSlides={true}
+               loop={true}
+               slidesPerView={3}
+               coverflowEffect={
+                {
+                  rotate:0,
+                  stretch:0,
+                  depth:100,
+                  modifier:2.5
+                }
+               }
+               pagination={{el:'.swiper-pagination', clickable:true}}
+               navigation={{
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+                clickable:true,
+
+               }}
+               modules={[EffectCoverflow, Pagination, Navigation]}
+               className="swiper_container"
+               >
+      
               {tabs[selectedTab].team.map((member) => (
+               
                 <div
                   key={member.id}
                   className="flex flex-col items-center mr-4 justify-evenly">
+                   <SwiperSlide className="">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -355,15 +393,28 @@ const ServiceComponent = () => {
                   />
                   <p>{member.name}</p>
                   <p>{member.role}</p>
-                </div>
+                  </SwiperSlide>
+                </div> 
               ))}
+             
+              <div className="slider-controler">
+                    <div className="swiper-button-prev slider-arrow">
+                      <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div className="swiper-button-next slider-arrow">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div className="swiper-pagination">
+                    </div>
+                  </div>
+              </Swiper>
             </div>
           </div>
 
           {/* Rendering achievements */}
           <div className="achievements">
-            <h1 className="text-3xl">Achievements</h1>
-            <VerticalTimeline className="text-black">
+            <h1 className="text-2xl">Achievements</h1>
+            <VerticalTimeline className="text-black text-xs">
               {tabs[selectedTab].achievements.map((achievement, index) => (
                 <VerticalTimelineElement key={index} className="text-black">
                   {achievement}
@@ -391,12 +442,19 @@ const ServiceComponent = () => {
             </div>
           </div>
 
-          <div>
+          <div className="flex gap-10 justify-center">
             <button
               type="button"
               class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-10 py-3.5 text-center me-2 mb-2">
-              INTERESTED
+              Interested
             </button>
+            <a
+              href={tabs[selectedTab].instagramLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-10 py-3.5 text-center me-2 mb-2">
+              Instagram
+            </a>
           </div>
         </div>
       </div>
