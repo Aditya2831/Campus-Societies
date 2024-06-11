@@ -19,6 +19,13 @@ import jayant from "../assets/Team_members/iosd/Jayant_Aggarwal .jpg"
 import jivesh from "../assets/Team_members/iosd/JiveshLakhani.jpg"
 import keshav from "../assets/Team_members/iosd/Keshav_Goyal.jpeg"
 
+import iosd1 from "../assets/Snapshots/iosd/iosd01.jpg"
+import iosd2 from "../assets/Snapshots/iosd/iosd02.jpg"
+import iosd3 from "../assets/Snapshots/iosd/iosd03.jpg"
+import iosd4 from "../assets/Snapshots/iosd/iosd04.jpg"
+import iosd5 from "../assets/Snapshots/iosd/iosd05.jpg"
+
+
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 import iosd from "../assets/logos/iosd.jpg";
@@ -121,27 +128,29 @@ const ServiceComponent = () => {
         {
           id: 0,
           image:
-            "/gallery/iosd01.jpg",
+            iosd1,
         },
         {
           id: 1,
           image:
-            "/gallery/iosd02.jpg"
+          iosd2
         },
         {
           id: 2,
           image:
-            "/gallery/iosd03.jpg",
+          iosd3
+            ,
         },
         {
           id: 3,
           image:
-            "/gallery/iosd04.jpg",
+          iosd4
+            ,
         },
         {
           id: 4,
           image:
-            "/gallery/iosd05.jpg",
+            iosd5,
         },
       ],
       instagramLink: "https://www.instagram.com/iosdmait/"
