@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Cards from "../Components/Card";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import fim1 from "../assets/Team_members/fim/fim1.png"
 import fim2 from "../assets/Team_members/fim/fim2.png"
@@ -26,10 +27,13 @@ import ph2 from "../assets/Team_members/phrenics/ph2.png"
 import ph3 from "../assets/Team_members/phrenics/ph3.png"
 import ph4 from "../assets/Team_members/phrenics/ph4.png"
 
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
-
-
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 import {
   VerticalTimeline,
@@ -730,12 +734,40 @@ const ServiceComponent = () => {
 
           {/* Container for team member images */}
           <div>
-            <h1 className="text-3xl">Meet Our Team</h1>
+            <h1 className="text-3xl mb-6">Meet Our Team</h1>
             <div className="flex justify-evenly">
+
+            <Swiper
+               effect={'coverflow'}
+               grabCursor={true}
+               centeredSlides={true}
+               loop={true}
+               slidesPerView={3}
+               coverflowEffect={
+                {
+                  rotate:0,
+                  stretch:0,
+                  depth:100,
+                  modifier:2.5
+                }
+               }
+               pagination={{el:'.swiper-pagination', clickable:true}}
+               navigation={{
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+                clickable:true,
+
+               }}
+               modules={[EffectCoverflow, Pagination, Navigation]}
+               className="swiper_container"
+               >
+      
               {tabs[selectedTab].team.map((member) => (
+               
                 <div
                   key={member.id}
                   className="flex flex-col items-center mr-4 justify-evenly">
+                   <SwiperSlide className="">
                   <img
                     src={member.image}
                     alt={member.name}
@@ -743,15 +775,28 @@ const ServiceComponent = () => {
                   />
                   <p>{member.name}</p>
                   <p>{member.role}</p>
-                </div>
+                  </SwiperSlide>
+                </div> 
               ))}
+             
+              <div className="slider-controler">
+                    <div className="swiper-button-prev slider-arrow">
+                      <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div className="swiper-button-next slider-arrow">
+                      <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                    <div className="swiper-pagination">
+                    </div>
+                  </div>
+              </Swiper>
             </div>
           </div>
 
           {/* Rendering achievements */}
           <div className="achievements">
-            <h1 className="text-3xl">Achievements</h1>
-            <VerticalTimeline className="text-black">
+            <h1 className="text-2xl">Achievements</h1>
+            <VerticalTimeline className="text-black text-xs">
               {tabs[selectedTab].achievements.map((achievement, index) => (
                 <VerticalTimelineElement key={index} className="text-black">
                   {achievement}
@@ -783,7 +828,7 @@ const ServiceComponent = () => {
             <button
               type="button"
               class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-10 py-3.5 text-center me-2 mb-2">
-              INTERESTED
+              Interested
             </button>
             <a
               href={tabs[selectedTab].instagramLink}
@@ -801,79 +846,3 @@ const ServiceComponent = () => {
 
 export default ServiceComponent;
 
-//TEAM HIERARCHY
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react'
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow } from 'swiper/modules';
-// import 'swiper/css';
-// import 'swiper/css/navigation';
-// import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
-
-//  const TechSocieties = () => {
-//   return (
-//     <>
-//      <div className="bg-gradient-to-r from-purple-900 via-purple-400 to-purple-900 pb-12">
-//     <div>
-//     <h1 className="text-7xl font-bold tracking-tight text-gray-900 dark:text-white text-center font-chakraPetch pt-10 mb-10">CULTURAL SOCIETIES</h1>
-//     </div>
-
-//     <Swiper
-//     effect={'coverflow'}
-//     modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
-//       spaceBetween={50}
-//       slidesPerView={3}
-//       coverflowEffect={{
-//           rotate: 50,
-//           stretch: 0,
-//           depth: 100,
-//           modifier: 1,
-//           slideShadows: true,
-//         }}
-//       navigation
-//       pagination={{ clickable: true }}
-      
-//       scrollbar={{ draggable: true }}
-//       onSlideChange={() => console.log('slide change')}
-//       onSwiper={(swiper) => console.log(swiper)}
-//     >
-
-//       <SwiperSlide className="w-64"><img src="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="" /></SwiperSlide>
-
-//       <SwiperSlide className="w-64"><img src="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="" /></SwiperSlide>
-
-//       <SwiperSlide  className="w-64"><img src="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="" /></SwiperSlide>
-
-//       <SwiperSlide  className="w-64"><img src="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="" /></SwiperSlide>
-
-//       <SwiperSlide className="w-64"><img src="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="" /></SwiperSlide>
-
-//       <SwiperSlide className="w-64"><img src="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="" /></SwiperSlide>
-
-//     </Swiper>
-// </div>
-//     </>
-//   )
-// }
-
-// export default TechSocieties;

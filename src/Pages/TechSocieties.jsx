@@ -63,9 +63,6 @@ import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
 
-
-
-
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -578,27 +575,6 @@ const ServiceComponent = () => {
       ],
       instagramLink:"https://www.instagram.com/tva_mait/"
     },
-
-   
-
-
-    // -------------------------------eDC----------------------------
-
-    
-
-
-
-
-
-
-    // ---------------------------CSI------------------------------------------------
-
-    
-
-
-
-    // ---------------------------------------------IEEE--------------------------------------
-   
   ];
 
   return (
