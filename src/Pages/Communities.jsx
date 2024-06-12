@@ -295,6 +295,92 @@ const ServiceComponent = () => {
       instagramLink:"https://www.instagram.com/ieeemait/"
     },
 
+    {
+      id: 3,
+      title: "CSI",
+      logo: iosd,
+      heading: "Computer Society Of India",
+      brief:
+        "The Computer Society of India (CSI) is a premier technical society dedicated to advancing the field of computer science and technology. With a rich legacy spanning decades, CSI brings together students, professionals, researchers, and industry experts to foster innovation, knowledge sharing, and collaboration in the realm of computing.",
+      established: "March 2016",
+      vision:
+        "Our vision at CSI is to be at the forefront of the digital revolution, driving advancements in computer science and technology that positively impact society. We aim to serve as a catalyst for innovation and excellence, providing a platform for individuals to explore emerging trends, exchange ideas, and leverage cutting-edge technologies. Through our diverse range of activities, including conferences, workshops, seminars, and publications, we strive to empower our members to thrive in an ever-evolving technological landscape and contribute to the development of a digitally empowered nation.",
+      // ../assets/img1.jpg
+      team: [
+        {
+          id: 0,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 1,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 2,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 3,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+        {
+          id: 4,
+          name: "Vansh",
+          role: "General Secreatary",
+          image:
+            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        },
+      ],
+
+      achievements: [
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi",
+        "1st Runner Up in Make-It-Happen Hackathon, Organized by GTBIT Delhi"
+      ],
+
+      gallery: [
+        {
+          id: 0,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 1,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 2,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 3,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+        {
+          id: 4,
+          image:
+            "https://th.bing.com/th/id/OIG4.iOsWOgZ92XCvp8G_gmVm?pid=ImgGn",
+        },
+      ],
+      instagramLink:"https://www.instagram.com/mait_csi_innowave/"
+    },
     
   ];
 

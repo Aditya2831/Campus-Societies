@@ -3,6 +3,11 @@ import GeneralSocs from '../Components/GeneralSocs';
 import { Link } from 'react-router-dom';
 import TechSocieties from './TechSocieties';
 
+import img1 from "../assets/img1.jpg"
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.jpg"
+
+
 function Welcome() {
   return (
     <div className="bg-gradient-to-r from-gray-900 via-violet-800 to-violet-900 overflow-visible">
@@ -19,19 +24,19 @@ function Welcome() {
     
 
     <Link to="/technical">
- <GeneralSocs img="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" title="TECHNICAL SOCIETIES" description="Diverse Expressions, Shared Traditions: Celebrating Heritage, Art, and Creativity, Weaving a Tapestry of Cultural Harmony."/>
+ <GeneralSocs img={img1} title="TECHNICAL SOCIETIES" description="Diverse Expressions, Shared Traditions: Celebrating Heritage, Art, and Creativity, Weaving a Tapestry of Cultural Harmony."/>
  </Link>
 
     <Link to="/x">
- <GeneralSocs img="https://th.bing.com/th/id/OIG4.PUDHnwXx2jG_BQcYonMl?w=1024&h=1024&rs=1&pid=ImgDetMain" title="Register" description="Register asap"/>
+<GeneralSocs img={img2} title="Register" description="Register asap"/>
  </Link>
 
  <Link to="/cultural">
-<GeneralSocs img="https://th.bing.com/th/id/OIG2.7siZyBaEKebX5tkKxmE1?pid=ImgGn" title="CULTURAL SOCIETIES" description="Diverse Expressions, Shared Traditions: Celebrating Heritage, Art, and Creativity, Weaving a Tapestry of Cultural Harmony."/>
+<GeneralSocs img={img3} title="CULTURAL SOCIETIES" description="Diverse Expressions, Shared Traditions: Celebrating Heritage, Art, and Creativity, Weaving a Tapestry of Cultural Harmony."/>
 </Link>
 
 <Link to="/communities">
- <GeneralSocs img="https://th.bing.com/th/id/OIG4.QQkOKr_NLJBkPzFvzkq0?pid=ImgGn" title="COMMUNITIES" description="Unity in Diversity, Strength in Numbers: Fostering Belonging, Empowering Voices, and Creating Change for a Better Tomorrow!"/>
+ <GeneralSocs img={img2} title="COMMUNITIES" description="Unity in Diversity, Strength in Numbers: Fostering Belonging, Empowering Voices, and Creating Change for a Better Tomorrow!"/>
  </Link>
 
 

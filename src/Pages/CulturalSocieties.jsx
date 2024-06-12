@@ -4,6 +4,30 @@ import Cards from "../Components/Card";
 import iosd from "../assets/logos/iosd.jpg";
 import techXtract from "../assets/logos/techXtract.jpg";
 
+import fim1 from "../assets/Team_members/fim/fim1.png"
+import fim2 from "../assets/Team_members/fim/fim2.png"
+
+import aff1 from "../assets/Team_members/affinity/aff1.png"
+import aff2 from "../assets/Team_members/affinity/aff2.png"
+
+import exp1 from "../assets/Team_members/expressions/exp1.png"
+import exp2 from "../assets/Team_members/expressions/exp2.png"
+import exp3 from "../assets/Team_members/expressions/exp3.png"
+import exp4 from "../assets/Team_members/expressions/exp4.png"
+import exp5 from "../assets/Team_members/expressions/exp5.png"
+
+import key1 from "../assets/Team_members/keyara/key1.png"
+import key2 from "../assets/Team_members/keyara/key2.png"
+import key3 from "../assets/Team_members/keyara/key3.png"
+import key4 from "../assets/Team_members/keyara/key4.png"
+
+import ph1 from "../assets/Team_members/phrenics/ph1.png"
+import ph2 from "../assets/Team_members/phrenics/ph2.png"
+import ph3 from "../assets/Team_members/phrenics/ph3.png"
+import ph4 from "../assets/Team_members/phrenics/ph4.png"
+
+
+
 
 
 
@@ -125,39 +149,39 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Kunal Uppal",
+          role: "Vice President",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            fim1
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Ayush Aggarwal",
+          role: "President",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+           fim2
         },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
+        // {
+        //   id: 2,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        // },
+        // {
+        //   id: 3,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        // },
+        // {
+        //   id: 4,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        // },
       ],
 
       achievements: [
@@ -172,12 +196,12 @@ const ServiceComponent = () => {
         {
           id: 0,
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            fim1
         },
         {
           id: 1,
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+           fim2
         },
         {
           id: 2,
@@ -215,39 +239,39 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Anant Kumar",
+          role: "President",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            aff1
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Pawan Singh",
+          role: "President",
           image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+            aff2
         },
-        {
-          id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
-        },
+        // {
+        //   id: 2,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        // },
+        // {
+        //   id: 3,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        // },
+        // {
+        //   id: 4,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://plus.unsplash.com/premium_photo-1666863911660-d64fc1022c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fHww",
+        // },
       ],
 
       achievements: [
@@ -306,38 +330,38 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Paridhi Puri",
+          role: "Creative Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            exp1
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Shubham",
+          role: "Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            exp2
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Ishita Kohli",
+          role: "President",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           exp3
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Ayush Gahalaut",
+          role: "Vice President",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            exp4
         },
         {
           id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Akash Jaiswal",
+          role: "President",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            exp5
         },
       ],
 
@@ -396,39 +420,39 @@ const ServiceComponent = () => {
       team: [
         {
           id: 0,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Sonu Verma",
+          role: "Creative Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            key1
         },
         {
           id: 1,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Sejal Srivastava",
+          role: "Vice President",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            key3
         },
         {
           id: 2,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Anish Saxena",
+          role: "President",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           key4
         },
         {
           id: 3,
-          name: "Vansh",
-          role: "General Secreatary",
+          name: "Harsh Singh",
+          role: "Creative Head",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            key2
         },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
+        // {
+        //   id: 4,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        // },
       ],
 
       achievements: [
@@ -582,36 +606,36 @@ const ServiceComponent = () => {
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            ph1
         },
         {
           id: 1,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            ph2
         },
         {
           id: 2,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+           ph3
         },
         {
           id: 3,
           name: "Vansh",
           role: "General Secreatary",
           image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+            ph4
         },
-        {
-          id: 4,
-          name: "Vansh",
-          role: "General Secreatary",
-          image:
-            "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        },
+        // {
+        //   id: 4,
+        //   name: "Vansh",
+        //   role: "General Secreatary",
+        //   image:
+        //     "https://th.bing.com/th/id/OIG4.hbisd8gn4i7P5YuPi3WQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        // },
       ],
 
       achievements: [
